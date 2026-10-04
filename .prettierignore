@@ -1,0 +1,8 @@
+dist
+.astro
+.vercel
+node_modules
+pnpm-lock.yaml
+packages/shared/src/types/database.ts
+apps/web/src/components/ui
+scripts/migration/input

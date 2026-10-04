@@ -1,0 +1,15 @@
+node_modules
+dist
+.astro
+.vercel
+.env
+.env.*
+!.env.example
+coverage
+playwright-report
+test-results
+supabase/.temp
+supabase/.branches
+scripts/migration/input/
+*.log
+.DS_Store

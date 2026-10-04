@@ -1,0 +1,20 @@
+---
+import '../styles/global.css';
+import { Button } from '../components/ui/button';
+import { APP_NAME } from '@wex/shared';
+---
+
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{APP_NAME}</title>
+  </head>
+  <body class="p-6">
+    <h1 class="text-2xl font-semibold">{APP_NAME}</h1>
+    <p class="mt-2">Fundația aplicației „Echipa Service” este pornită.</p>
+    <Button client:load className="mt-4">
+      Test island React
+    </Button>
+  </body>
+</html>

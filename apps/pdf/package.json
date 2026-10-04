@@ -1,0 +1,14 @@
+{
+  "name": "@wex/pdf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev --listen 3001",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "~5.9.3",
+    "vercel": "^62.2.0"
+  }
+}
